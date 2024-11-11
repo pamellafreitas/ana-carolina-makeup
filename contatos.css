@@ -1,0 +1,17 @@
+#contato {
+    background: linear-gradient(to bottom, #E3AFAA, #F5F5F5);
+}
+
+.btn-whatsapp {
+    background-color: #C76A61;
+    color: #f5f5f5;
+}
+
+.btn-whatsapp:hover {
+    background-color: #fd7b6f;
+    color: #f5f5f5;
+}
+
+footer {
+    background-color: #6B1229;
+}

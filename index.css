@@ -1,0 +1,33 @@
+@import url('inicio.css');
+@import url('sobre.css');
+@import url('servicos.css');
+@import url('portfolio.css');
+@import url('depoimentos.css');
+@import url('contatos.css');
+
+h1, h2 {
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: -8px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 3rem;
+    }
+}

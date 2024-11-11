@@ -1,0 +1,64 @@
+/* Fundo do gradiente */
+.depoimentos-section {
+    background: linear-gradient(to bottom, #6B1229, #C76A61);
+    color: #fff;
+}
+
+/* Subtítulo */
+.subtitulo {
+    font-size: 1.2rem;
+    color: #e3e3e3;
+}
+
+/* Estilos dos depoimentos */
+.depoimento {
+    margin: 0 auto;
+    min-width: 250px; /* Largura mínima */
+    max-width: 500px; /* Largura máxima */
+    background-color: #C76A61;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.depoimento p {
+    color: #f5f5f5;
+    font-size: 1rem;
+    margin: 10px 20px;
+}
+
+/* Estilos do autor */
+.autor img {
+    border: 2px solid #fff;
+}
+.autor span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.carousel-indicators .active {
+    background-color: #6B1229; /* Cor do ponto ativo */
+}
+
+.carousel-indicators li:hover {
+    background-color: #555; /* Cor do ponto ao passar o mouse */
+}
+
+.depoimento img {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+}
+
+ p .aspas {
+    color: #6B1229;
+    font-size: 1.9rem;
+    
+}
+
+
+
+
+
