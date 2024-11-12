@@ -10,11 +10,11 @@
     color: #e3e3e3;
 }
 
-/* Estilos dos depoimentos */
+
 .depoimento {
     margin: 0 auto;
-    min-width: 250px; /* Largura mínima */
-    max-width: 500px; /* Largura máxima */
+    min-width: 250px; 
+    max-width: 500px; 
     background-color: #C76A61;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -36,11 +36,11 @@
 }
 
 .carousel-indicators .active {
-    background-color: #6B1229; /* Cor do ponto ativo */
+    background-color: #6B1229; 
 }
 
 .carousel-indicators li:hover {
-    background-color: #555; /* Cor do ponto ao passar o mouse */
+    background-color: #555; 
 }
 
 .depoimento img {

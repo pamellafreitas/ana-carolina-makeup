@@ -1,11 +1,9 @@
 
-  
-.portfolio-section {
+  .portfolio-section {
     background: #E2ABA6;
     color: white;
   }
 
-  /* Estilo para o botão Ver Mais */
   .ver-mais {
     color: #E2ABA6;
     text-decoration: none;
@@ -28,7 +26,6 @@
     left: 0;
   }
 
-  /* Estilo para esconder e mostrar imagens */
   .d-none {
     display: none !important;
   }
@@ -40,14 +37,14 @@
 
   .row.justify-content-center {
     display: flex;
-    justify-content: center; /* Garante que as colunas sejam centralizadas */
-    flex-wrap: wrap; /* Garante que as imagens fiquem em linha, e se necessário, vão para a linha seguinte */
+    justify-content: center; 
+    flex-wrap: wrap; 
   }
   
   .col-6.col-md-3.mb-3 {
     display: flex;
-    justify-content: center; /* Centraliza a imagem dentro da coluna */
-    align-items: center; /* Alinha verticalmente a imagem */
+    justify-content: center; 
+    align-items: center; 
   }
   
   img.img-fluid {
@@ -57,9 +54,22 @@
 
   .additional-image {
     display: flex;
-    justify-content: center; /* Centraliza as imagens adicionais */
-    align-items: center; /* Alinha verticalmente as imagens */
+    justify-content: center; 
+    align-items: center; 
   }
+
+ 
+  #portfolio .container img {
+    transition: transform 0.3s ease; 
+  }
+
+  
+  #portfolio .container img:hover {
+    transform: scale(1.1); 
+  }
+
+
+
 
 
   
