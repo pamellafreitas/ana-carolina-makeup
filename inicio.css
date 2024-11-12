@@ -101,9 +101,6 @@ html, body {
 
 /* Ponto de quebra para smartphones médios (mínimo de 424px e máximo de 575px) */
 @media (min-width: 424px) and (max-width: 575px) {
-  .navbar .container {
-   
-  }
 
   .navbar-brand img {
     width: 200px;
