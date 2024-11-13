@@ -6,7 +6,6 @@
 }
 
 html, body {
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -35,6 +34,13 @@ html, body {
 .navbar-nav {
   margin-right: 0;
 }
+
+.nav-item.active .nav-link {
+  color: #ebbaa8 !important; 
+  font-weight: bold;
+}
+
+
 
 
 .inicio-section {
